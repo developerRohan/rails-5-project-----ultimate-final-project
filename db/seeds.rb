@@ -48,7 +48,7 @@ end
 puts("9 portfolio items created")
 
 3.times do |technology|
-  Portfolio.last.technologies.create!(  #rails syntax for directly associating
+  Portfolio.last.technologies.create!(  #rails syntax for directly associating	
     name: "Technology #{technology}"
   )
 end
