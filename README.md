@@ -8,4 +8,4 @@ Features
 2. Blog
 3. Portfolio
 4. Drag and drop interface
-5. used concerns(the most debatable topic) to share data betwene models
+5. used concerns(the most debatable topic) to share data between models
