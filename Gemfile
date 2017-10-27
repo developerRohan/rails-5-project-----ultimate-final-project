@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 gem 'devise', '~> 4.3'
 
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
