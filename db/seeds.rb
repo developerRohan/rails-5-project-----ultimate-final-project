@@ -54,3 +54,10 @@ puts("9 portfolio items created")
 end
 
 puts('3 technologies created')
+
+@user = User.create(email: "test@test.com",
+                    password: "asdfasdf",
+                    password_confirmation: "asdfasdf",
+                    name:"rohan arora")
+
+puts "1 User created"
