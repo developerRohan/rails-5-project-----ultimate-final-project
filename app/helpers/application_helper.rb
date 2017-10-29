@@ -14,4 +14,8 @@ module ApplicationHelper
 		content_tag(:p ,greeting , class: "source-greeting" )
   	end
   end
+
+  def copyright_generator
+    CopyrightGem::Renderer.copyright "rohan arora" , "ruby on rails developer"
+  end
 end
