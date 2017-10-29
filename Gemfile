@@ -16,6 +16,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 gem 'devise', '~> 4.3'
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'jquery-rails'
+gem 'petergate', '~> 1.8'
 
 
 group :development, :test do
@@ -30,3 +33,4 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'copyright_gem' , git: 'https://github.com/developerRohan/copyright_gem-created-_by_me-'
