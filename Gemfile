@@ -30,3 +30,4 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'copyright_gem' , git: 'https://github.com/developerRohan/copyright_gem-created-_by_me-'

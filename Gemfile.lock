@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/developerRohan/copyright_gem-created-_by_me-
+  revision: 2b848af388e8f97c3aa3a85b412bb77d89193c9f
+  specs:
+    copyright_gem (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -176,6 +182,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+  copyright_gem!
   devise (~> 4.3)
   friendly_id (~> 5.2, >= 5.2.3)
   jbuilder (~> 2.5)
