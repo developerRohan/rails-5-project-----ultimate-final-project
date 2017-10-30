@@ -11,30 +11,15 @@
   </head>
 
   <body>
-  
-  <div class="site-wrapper">
-    <div class="site-wrapper-inner">
-      <div class="cover-container">
-
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
           <%= render 'shared/application_nav' %>
-
-         
-         <%= yield %> 
-
-          <footer class="mastfoot">
-            <div class="inner">
-              <p> <%= copyright_generator %></p>
-            </div>
-          </footer>
-        
-
-      	<%= source_helper("application") %>
+            <%= yield %> 
+          <%= render 'shared/footer' %>
+          <%= source_helper("application") %>
+        </div>
       </div>
     </div>
-  </div>
-
   </body>
-
- 
-
 </html>
