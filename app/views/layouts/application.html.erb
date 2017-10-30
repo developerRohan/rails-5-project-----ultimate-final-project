@@ -3,6 +3,7 @@
   <head>
     <title> <%= @page_title %> </title>
     <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -10,16 +11,28 @@
   </head>
 
   <body>
-  	<p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+  
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
 
-    <%= render 'shared/nav' , location: 'top' %>
+          <%= render 'shared/application_nav' %>
 
-   <%= login_helper %>
-   <%= yield %></div> 
-   <%= copyright_generator %>
+         
+         <%= yield %> 
 
-	<%= source_helper("application") %>
+          <footer class="mastfoot">
+            <div class="inner">
+              <p> <%= copyright_generator %></p>
+            </div>
+          </footer>
+        
+
+      	<%= source_helper("application") %>
+      </div>
+    </div>
+  </div>
+
   </body>
 
  
