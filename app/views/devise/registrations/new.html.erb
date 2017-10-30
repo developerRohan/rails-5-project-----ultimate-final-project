@@ -1,4 +1,5 @@
-<div class="card">
+<div class = "edit">
+  <div class="card">
   <div class="card-block">
       
     <h2>Sign up</h2>
@@ -39,17 +40,16 @@
 
         </div>
 
-        <div class="col-md-10"></div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <%= f.submit "Sign up", class: 'btn btn-primary btn-block' %>
-          </div>
-
-          <div class="auth-links register-text">
-            <%= render "devise/shared/links" %>
-          </div>
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+           <div class="auth-links register-text">
+            <%= f.submit "Sign up", class: 'btn btn-primary ' %>
+              <%= render "devise/shared/links" %>
+            </div>
         </div>
       </div>
     <% end %>
   </div>
 </div>
+</div>
+ 

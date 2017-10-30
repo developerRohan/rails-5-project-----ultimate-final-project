@@ -176,3 +176,19 @@ body {
 .auth-links a {
   color: black;
 }
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
+
+.edit > .card{
+  width: 40rem;
+  margin: auto
+}
+
+.form-control {
+   width: 50%; 
+   display:inline
+}
