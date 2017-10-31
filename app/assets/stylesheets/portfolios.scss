@@ -62,3 +62,57 @@ footer p {
   margin-bottom: .25rem;
 }
 
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 2px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    margin: 0;
+    position: relative;
+    top: 13px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+.leads{
+  color: green;
+  text-align: center;
+  font-size: 1.3em
+}
+
+
+/* Custom styles */
+
+.portfolio-container{
+  padding-top: 60px;
+}
+
+
+.portfolio-box{
+  border : 2px solid transparent;    
+  -webkit-transition : border 500ms ease-out; 
+  -moz-transition : border 500ms ease-out;
+  -o-transition : border 500ms ease-out;
+}
+
+.portfolio-box:hover{
+  border : 2px solid #d3d3d3;
+}
