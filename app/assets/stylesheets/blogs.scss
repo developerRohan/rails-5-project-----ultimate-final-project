@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
+@import "font-awesome";
+
 /*
  * Globals
  */
@@ -169,8 +171,13 @@ h6,
   text-align: center;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
+  width:100%
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.social-links{
+  font-size: 1.8em
 }
 

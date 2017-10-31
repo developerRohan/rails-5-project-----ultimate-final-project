@@ -9,18 +9,12 @@
   </head>
 
   <body>
-  <!-- start of nav -->
-    <%= render 'shared/blog_nav'%>
-  <!-- end of nav -->
+    <!-- start of nav -->
+      <%= render 'shared/blog_nav'%>
+    <!-- end of nav -->
 
     <!-- start of blog head -->
-    <div class="blog-header">
-      <div class="container">
-        <h1 class="blog-title">My Blog</h1>
-        <p class="lead blog-description">Publish your passions, your way</p>
-        <p><%= link_to 'New Blog', new_blog_path if logged_in?(:site_admin)%></p>
-      </div>
-    </div>
+      <%= render 'shared/blog_header'%>
     <!-- end of blog head -->
 
     <!-- start of container and row -->
