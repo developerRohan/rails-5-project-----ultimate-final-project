@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require rails-ujs
+//= require jquery-1.12.4.js
 //= require jquery-ui
-//= require html.sortable
 //= require turbolinks
 //= require_tree .
 //= require popper
@@ -43,4 +43,8 @@ window.addEventListener("load", function(event) {
     onBodyLoad();
 });
 
+
+$( function() {
+    $( ".sortable" ).sortable();
+} );
 
