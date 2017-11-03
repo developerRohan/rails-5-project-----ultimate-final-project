@@ -11,11 +11,11 @@
 // about supported directives.
 //
 //= require jquery
-//= require parallax
 //= require rails-ujs
 //= require jquery-1.12.4.js
 //= require jquery-ui
 //= require cocoon
+//= require gritter
 //= require turbolinks
 //= require_tree .
 //= require popper
