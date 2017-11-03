@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   get 'itsme-rohan', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'tech-news', to: 'pages#tech_news'
 
   # this is restful routing
   resources :blogs do
