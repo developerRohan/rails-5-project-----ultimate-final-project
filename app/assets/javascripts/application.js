@@ -11,9 +11,11 @@
 // about supported directives.
 //
 //= require jquery
+//= require parallax
 //= require rails-ujs
 //= require jquery-1.12.4.js
 //= require jquery-ui
+//= require cocoon
 //= require turbolinks
 //= require_tree .
 //= require popper
@@ -47,4 +49,5 @@ window.addEventListener("load", function(event) {
 $( function() {
     $( ".sortable" ).sortable();
 } );
+
 
