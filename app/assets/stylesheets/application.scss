@@ -241,5 +241,17 @@ body {
   background-size: cover;
 }
 
+.tech-news {
+  color: black;
+  margin: 5px;
+}
+
+.tech-news > .card {
+  padding: 10px;
+}
+
+.tech-news a {
+  color: green;
+}
 
 
