@@ -1,7 +1,9 @@
-<div class="card">
- 	<%= image_tag portfolio_img(portfolio.thumb_image, 'thumb') %>
+<div class="col-md-4">
+	<div class="card">
+ 		<%= image_tag portfolio_img(portfolio.thumb_image,'thumb'), width: '100%' %>
 
-  	<p class="card-text">
-  		<span><%= link_to portfolio.title, portfolio_show_path(portfolio) %>  <%= portfolio.subtitle %></span> 
-  	</p>
+  		<p class="card-text">
+  			<span><%= link_to portfolio.title, portfolio_show_path(portfolio) %>  <%= portfolio.subtitle %></span> 
+  		</p>
+	</div>
 </div>
