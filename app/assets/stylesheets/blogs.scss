@@ -14,6 +14,9 @@
   html {
     font-size: 18px;
   }
+  .pull-right{
+  margin-left:70px ;
+  }
 }
 
 body {
@@ -112,6 +115,15 @@ h6,
 @media (min-width: 40em) {
   .blog-title {
     font-size: 3.5rem;
+  }
+  .pull-right{
+  margin-left:70px ;
+  }
+}
+
+@media (min-width: 30px) {
+  .pull-right{
+  margin-left:70px ;
   }
 }
 
@@ -236,3 +248,9 @@ h6,
   font-size: .8em;
   font-style: italic;
 }
+
+.pull-right{
+  margin-left:350px ;
+}
+
+

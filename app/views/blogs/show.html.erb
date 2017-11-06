@@ -1,6 +1,8 @@
 <div class="col-sm-8 blog-main">
 
-  <h2><%= @blog.title %></h2> 
+  <h2><%= @blog.title %></h2>
+   <%= render 'blog_breadcrumbs' %>
+
 	<%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %> 
 	
 	<p><%= markdown(@blog.body) %></p>
