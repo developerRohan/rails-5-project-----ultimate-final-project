@@ -55,9 +55,22 @@ end
 
 puts('3 technologies created')
 
-@user = User.create(email: "test@test.com",
-                    password: "asdfasdf",
-                    password_confirmation: "asdfasdf",
-                    name:"rohan arora")
 
-puts "1 User created"
+User.create!(
+  email: "admintest@test.com",
+  password: "asdfasdf",
+  password_confirmation: "asdfasdf",
+  name: "Admin User",
+  roles: "site_admin"
+)
+
+puts "1 Admin user created"
+
+User.create!(
+  email: "test@test.com",
+  password: "asdfasdf",
+  password_confirmation: "asdfasdf",
+  name: "Regular User",
+)
+
+puts "1 regular user created"
