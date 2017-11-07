@@ -10,3 +10,14 @@
 .profile-img {
   border: 1px solid grey;
 }
+
+
+.text-alignn{
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.card-block{
+	margin-top: 5px;
+	margin-bottom: 5px ;
+}
